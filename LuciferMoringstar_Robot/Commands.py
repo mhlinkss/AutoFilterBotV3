@@ -84,7 +84,7 @@ async def start(bot, message):
                     f_caption = f"{files.file_name}"
                 buttons = [
                     [
-                        InlineKeyboardButton('🌀 MAIN CHANNEL 🌀 ', url=f'{TUTORIAL}')
+                        InlineKeyboardButton('🌀 MAIN CHANNEL 🌀 ', url=f'https://t.me/+gyZFP-mFh7YyN2Q1')
                     ]
                     ]
                 await bot.send_cached_media(
@@ -331,7 +331,7 @@ async def bot_info(bot, message):
     buttons = [
         [
             
-            InlineKeyboardButton('MOVIE REQ GROUP', url=f'{https://t.me/moviereqgroup_movieshub}')
+            InlineKeyboardButton('MOVIE REQ GROUP', url=f'https://t.me/moviereqgroup_movieshub')
         ]
         ]
     await message.reply(text=f"{ABOUT}", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
